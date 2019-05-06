@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <script src="https://raw.githubusercontent.com/creativelive/appear/master/dist/appear.min.js"></script>
+    <!-- <script src="https://raw.githubusercontent.com/creativelive/appear/master/dist/appear.min.js"></script> -->
 
     <style>
       body {
@@ -27,8 +27,9 @@
         text-align:center;
         padding:10px;
       }
-      header span {
+      header a {
         font-size:50px;
+        color:white;
 
       }
       #section1 {
@@ -47,8 +48,9 @@
       #section1 pre {
         text-align: center;
         position:absolute;
+        top:50%;
         left:50%;
-        transform:translateX(-50%);
+        transform:translate(-50%, -60%);
         z-index:1;
         color:white;
         font-family: "IndustryIncW00-Base";
@@ -70,6 +72,7 @@
         flex-direction:column;
         align-items:center;
         text-align:center;
+
       }
       #section2 section p {
         font-size:20px;
@@ -80,14 +83,15 @@
       }
 
       @media (max-width:800px) {
-        header span {
+        header a {
           font-size:30px;
         }
         #section2 {
           flex-direction:column;
+          align-items:center;
         }
         #section2 section {
-          width:100%;
+          width:80%;
           margin: 30px 0;
         }
         .modal-header-text {
@@ -104,14 +108,15 @@
   </head>
   <body>
     <header>
-      <span>Compassionate PDX</span>
+      <a href="/">Compassionate PDX</a>
     </header>
     <section id="section1">
       <img src="fox-header.png"/>
       <pre>Together
 We Can
 Make Fur
-History</pre>
+History
+<a href="#section2" class="btn orange">Take Action</a></pre>
     </section>
     <section id="section2">
       <section id="section2-1">
@@ -121,6 +126,7 @@ History</pre>
       </section>
       <section id="section2-2">
         <h5>Subscribe to the Newsletter</h5>
+        <p>Keep up to date on the latest developments</p>
         <a class="waves-effect waves-light orange btn modal-trigger" href="#modal1">Subscribe</a>
       </section>
       <section id="section2-3">
@@ -129,6 +135,113 @@ History</pre>
         <a class="waves-effect waves-light orange btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdeUH9dBKz25AQsKARCTSwgMnYp8E1qFY9Wh1wj3bUBEg0bTQ/viewform">Endorse</a>
       </section>
     </section>
+    <section id="section3">
+      <section>
+        <h4>Fur Industry Facts</h4>
+        <div class="carousel carousel-slider center">
+          <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2 bt_prev"><</a>
+            <a class="btn waves-effect white grey-text darken-text-2 bt_next">></a>
+          </div>
+          <div class="carousel-item" href="#one!">
+            <p>Each year, more than 1 billion animals are killed for their fur worldwide, including rabbits, mink, foxes, coyotes, chinchillas, rabbits, seals, dogs, and cats.</p>
+          </div>
+          <div class="carousel-item" href="#two!">
+            <p>Roughly 85% of animals killed for fur are raised on fur factory farms, with the remainder trapped in the wild.</p>
+          </div>
+          <div class="carousel-item" href="#three!">
+            <p>Animals killed on fur farms spend their entire lives in cramped cages. These species are wild, with territorial ranges in the hundreds of acres. The confinement and boredom often leads to cage psychosis - frantic pacing, self-mutilation, and cannibalism.</p>
+          </div>
+          <div class="carousel-item" href="#four!">
+            <p>Animals trapped in the wild are often stuck in traps for days, exposed to the elements, injured and bleeding, and without food or water. Traps are indiscriminate, sometimes killing companion animals and endangered species.</p>
+          </div>
+          <div class="carousel-item" href="#five!">
+            <p>Common methods of killing animals on fur farms are anal electrocution, gassing, suffocation, and neck-breaking, while trapped animals are often either shot or bludgeoned to death.</p>
+          </div>
+          <div class="carousel-item" href="#six!">
+            <p>There at 18 fur farms in Oregon, but most fur sold in stores is imported from China and other countries with little to no regulation.</p>
+          </div>
+          <div class="carousel-item" href="#seven!">
+            <p>Fur farming is banned in many European countries including the UK, Germany, Belgium, Norway, Austria, The Czech Republic, Slovenia, and Serbia.</p>
+          </div>
+          <div class="carousel-item" href="#eight!">
+            <p>The sale and manufacture of fur is banned in several US cities including Los Angeles, San Francisco, Berkeley, and West Hollywood.</p>
+          </div>
+          <div class="carousel-item" href="#nine!">
+            <p>According to Michigan State University, the US mink industry alone adds almost 1,000 tons of nitrogen and phosphorus into the environment each year. Fur is processed with harmful carcinogenic chemicals, including chromium and formaldehyde.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h4>Fur Ban FAQ</h4>
+        <div class="carousel carousel-slider center">
+          <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2 bt_prev"><</a>
+            <a class="btn waves-effect white grey-text darken-text-2 bt_next">></a>
+          </div>
+          <div class="carousel-item" href="#one!">
+            <h2>What would the fur ban do?</h2>
+            <p>This ordinance would prohibit the manufacture and sale of new fur products within the city of Portland. This includes (but is not limited to) coats with fur trim, handbags, shoes, hats, and key chains.</p>
+          </div>
+          <div class="carousel-item" href="#two!">
+            <h2>Why Portland?</h2>
+            <p>Portland has long been a leader in enacting policies to help animals and the environment. It was an early adopter of the Bottle Bill, passed some of the nation’s most restrictive puppy mill laws in 2010, banned plastic bags in 2011, and just passed a strong law restricting single-use plastic. Joining other cities in prohibiting this archaic, cruel, and unnecessary product is in line with Portland’s progressive ethics.</p>
+          </div>
+          <div class="carousel-item" href="#three!">
+            <h2>Won't this hurt local business?</h2>
+            <p>Most fur sold in Portland is imported from China or Canada. No businesses in Portland rely solely on the sale of fur and for those that do, it is a negligible amount of sales. However, in order to mitigate any economic impacts, there will likely be a one-year cushion after the ban takes effect to sell any fur products that they purchased prior to the ordinance adoption date.</p>
+          </div>
+          <div class="carousel-item" href="#four!">
+            <h2>What about the loss of taxes?</h2>
+            <p>There is no sales tax in Oregon. This ban would have no impact on taxes.</p>
+          </div>
+          <div class="carousel-item" href="#five!">
+            <h2>Isn’t faux fur made from plastic and bad for the environment?</h2>
+            <p>Faux fur can be made from recycled or biodegradable materials, or can simply be avoided. The fur industry contributes to water pollution through the discharge of nitrogen and phosphorous. Fur is processed with carcinogenic chemicals, including chromium and formaldehyde, which can damage human health and prevents it from being biodegradable. It takes fifteen times more energy to make a coat from animal fur than from faux fur.</p>
+          </div>
+          <div class="carousel-item" href="#six!">
+            <h2>Will people be banned from wearing fur?</h2>
+            <p>No. The law only regulates the manufacture and sale of fur within the city of Portland.</p>
+          </div>
+          <div class="carousel-item" href="#seven!">
+            <h2>What about the sale of “vintage” fur and used clothing? What about leather, etc?</h2>
+            <p>The law only regulates the manufacture and sale of new fur items. Used fur items, as well as leather, cowhide and lambskin/sheepskin, even with hair attached are all exempt.</p>
+          </div>
+          <div class="carousel-item" href="#eight!">
+            <h2>It can’t be done. The industry is too powerful.</h2>
+            <p>Not true. West Hollywood banned the sale of fur in 2013 when fur sales were estimated at two million dollars annually. Four cities and counting have adopted similar bans, and a statewide fur ban bill is currently moving through the California State Assembly.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <style>
+      #section3 {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+      }
+      #section3 > section {
+        margin:60px;
+        width:20%;
+      }
+      #section3 h2 {
+        margin-top:0;
+        text-align:left;
+      }
+      #section3 p {
+        text-align:left;
+      }
+      .indicator-item {
+        background-color:#ff980055 !important;
+      }
+      .indicator-item.active {
+        background-color:#ff9800 !important;
+      }
+      /* .carousel {
+        height:300px !important;
+      } */
+    </style>
 
 
 
@@ -211,6 +324,51 @@ History</pre>
         var instances = M.Modal.init(elems, {});
       });
 
+
+      let carousel_elements = document.querySelectorAll('.carousel')
+      let carousel_instances = M.Carousel.init(carousel_elements, {
+        fullWidth: true,
+        indicators: true
+      });
+      for (let i=0; i<carousel_elements.length; ++i) {
+        let bt_prev = carousel_elements[i].querySelector('.bt_prev')
+        let bt_next = carousel_elements[i].querySelector('.bt_next')
+        bt_prev.onclick = function() {
+          carousel_instances[i].prev()
+        }
+        bt_next.onclick = function() {
+          carousel_instances[i].next()
+        }
+      }
+
+
+      // var carousel1 = M.Carousel.init(document.querySelector('.carousel'), {
+      //   fullWidth: true,
+      //   indicators: true
+      // });
+      // let bt_prev1 = document.querySelector('#bt_prev1')
+      // let bt_next1 = document.querySelector('#bt_next1')
+      // bt_prev1.onclick = function() {
+      //   carousel1.prev()
+      // }
+      // bt_next1.onclick = function() {
+      //   carousel1.next()
+      // }
+      //
+      //
+      // var carousel2 = M.Carousel.init(document.querySelectorAll('.carousel')[1], {
+      //   fullWidth: true,
+      //   indicators: true
+      // });
+      // let bt_prev2 = document.querySelector('#bt_prev2')
+      // let bt_next2 = document.querySelector('#bt_next2')
+      // bt_prev2.onclick = function() {
+      //   carousel2.prev()
+      // }
+      // bt_next2.onclick = function() {
+      //   carousel2.next()
+      // }
+
       var easing = {
           // no easing, no acceleration
           linear: function (t) { return t },
@@ -262,8 +420,6 @@ History</pre>
 
 
       let animated_numbers = document.querySelectorAll('.animate_number')
-      console.log(animated_numbers)
-      // let goal_numbers = animated_numbers.map(element => element.innerText)
       for (let i=0; i<animated_numbers.length; ++i) {
         animate(0, animated_numbers[i].innerText, 3000, easing.easeOutQuad, function(v) {
           animated_numbers[i].innerText = Math.floor(v)
@@ -272,10 +428,6 @@ History</pre>
 
 
     </script>
-
-
-
-
 
   </body>
 
