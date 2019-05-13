@@ -32,6 +32,7 @@
     <!-- Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- <script src="https://raw.githubusercontent.com/creativelive/appear/master/dist/appear.min.js"></script> -->
 
@@ -54,7 +55,12 @@
       header a {
         font-size:50px;
         color:white;
-
+      }
+      .sidenav-trigger {
+        margin-left:10px;
+      }
+      .sidenav-trigger i {
+        font-size:40px;
       }
       #section1 {
         width:100%;
@@ -153,8 +159,16 @@
   </head>
   <body>
     <header>
+      <a href="#" data-target="slide-out" class="sidenav-trigger left"><i class="material-icons">menu</i></a>
       <a href="/">Compassionate PDX</a>
     </header>
+    <ul id="slide-out" class="sidenav">
+      <li><a href="https://www.portlandoregon.gov/25999">Contact Your Commissioners</a></li>
+      <li><a href="standalone_petition_locations.png">Petition Locations</a></li>
+      <li><a href="Portland Fur Ban Ordinance Draft.pdf">Model Legislation</a></li>
+      <li><a href="https://compassionatecity.org/">Compassionate Cities</a></li>
+      <li><a href="#footer">Contact us</a></li>
+    </ul>
     <section id="section1">
       <img src="fox-header.png"/>
       <pre>Together
@@ -260,7 +274,7 @@ History
       </section>
     </section>
 
-    <footer>
+    <footer id="footer">
       <span>Contact us:</span>
       <a href="mailto:compassionateportland@gmail.com">Email</a>
       <a href="https://www.facebook.com/compassionatepdx/">Facebook</a>
@@ -373,6 +387,11 @@ History
       document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.modal');
         var instances = M.Modal.init(elems, {});
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, {});
       });
 
 
