@@ -86,11 +86,12 @@
     </header>
     <ul id="slide-out" class="sidenav">
       <li><a href="/">Home</a></li>
+      <li><a href="why_ban_fur.php">Why Ban Fur?</a></li>
       <li><a href="commissioners.php">Take Action</a></li>
       <li><a href="petition_locations.php">Petition Locations</a></li>
-      <li><a href="Portland Fur Ban Ordinance Draft.pdf">Model Legislation</a></li>
+      <li><a href="model_legislation.php">Model Legislation</a></li>
       <li><a href="https://compassionatecity.org/">Compassionate Cities</a></li>
-      <li><a href="#footer" class="sidenav-close">Contact us</a></li>
+      <li><a href="about_us.php">About us</a></li>
     </ul>
     <script>
       document.addEventListener('DOMContentLoaded', function() {

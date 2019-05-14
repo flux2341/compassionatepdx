@@ -14,6 +14,9 @@ include('header.php');
   #app img {
     width:100%;
   }
+  h4 {
+    text-align:center;
+  }
 </style>
 <div id="app">
   <h4>Sign the Petition</h4>

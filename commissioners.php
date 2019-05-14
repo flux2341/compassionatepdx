@@ -11,6 +11,9 @@ include('header.php');
     margin:0 auto;
     padding:10px;
   }
+  h4 {
+    text-align:center;
+  }
 </style>
 <div id="app">
   <h4>Contact Your City Commissioners</h4>
