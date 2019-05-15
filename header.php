@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compassionate PDX</title>
 
+    <link href="https://unpkg.com/normalize.css@8.0.1/normalize.css" rel="stylesheet"/>
+
     <!-- Fonts -->
     <!-- <link href="https://db.onlinewebfonts.com/c/d60b13a925ef3dfc380e1dcd4cc5673b?family=IndustryIncW00-Base" rel="stylesheet" type="text/css"/> -->
     <!-- <link href="https://db.onlinewebfonts.com/c/a5639cd27a5f27e8be51b04ba9d92c09?family=IndustryIncW00-Inline" rel="stylesheet" type="text/css"/> -->
@@ -27,21 +29,25 @@
       }
     </style>
 
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"/>
 
     <!-- Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
-      body {
+      html, body {
         margin:0;
+        padding:0;
         font-family: 'Josephin Sans', sans-serif;
       }
       * {
         box-sizing:border-box;
       }
       header {
+        position:relative;
         font-family: "industry-inc-inline";
         background-color: #91eeff;
         color:white;
@@ -55,8 +61,10 @@
       }
       .sidenav-trigger {
         margin-left:10px;
-        position:absolute;
-        left:0;
+        position:sticky;
+        position: -webkit-sticky;
+        top:0;
+        display:block;
       }
       .sidenav-trigger i {
         font-size:40px;

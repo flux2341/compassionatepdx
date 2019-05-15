@@ -150,132 +150,134 @@ include('header.php');
   }
 </style>
 
-<section id="section1">
-  <img src="fox-header.png"/>
-  <pre>Together
-We Can
-Make Fur
-History
-<a href="commissioners.php" class="btn orange">Take Action</a></pre>
-</section>
-<section id="section2">
-  <section id="section2-1">
-    <h5>Sign the Petition</h5>
-    <p>Join <span class="animate_number">2245</span> other Portland residents in signing the petition. There are 6 signature locations at local Portland businesses.</p>
-    <a class="waves-effect waves-light orange btn" href="petition_locations.php">View Locations</a>
+
+<main>
+  <section id="section1">
+    <img src="fox-header.png"/>
+    <pre>Together
+  We Can
+  Make Fur
+  History
+  <a href="commissioners.php" class="btn orange">Take Action</a></pre>
   </section>
-  <section id="section2-2">
-    <h5>Subscribe to the Newsletter</h5>
-    <p>Keep up to date on the latest developments</p>
-    <a class="waves-effect waves-light orange btn modal-trigger" href="https://mailchi.mp/32a2cb4c3342/compassionatepdx" target="_blank">Subscribe</a>
+  <section id="section2">
+    <section id="section2-1">
+      <h5>Sign the Petition</h5>
+      <p>Join <span class="animate_number">2245</span> other Portland residents in signing the petition. There are 6 signature locations at local Portland businesses.</p>
+      <a class="waves-effect waves-light orange btn" href="petition_locations.php">View Locations</a>
+    </section>
+    <section id="section2-2">
+      <h5>Subscribe to the Newsletter</h5>
+      <p>Keep up to date on the latest developments</p>
+      <a class="waves-effect waves-light orange btn modal-trigger" href="https://mailchi.mp/32a2cb4c3342/compassionatepdx" target="_blank">Subscribe</a>
+    </section>
+    <section id="section2-3">
+      <h5>Endorse as a Business or Organization</h5>
+      <p>Join <span class="animate_number">40</span> other Portland-based businesses and organizations that have endorsed a ban on the sale of new fur products!</p>
+      <a class="waves-effect waves-light orange btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdeUH9dBKz25AQsKARCTSwgMnYp8E1qFY9Wh1wj3bUBEg0bTQ/viewform">Endorse</a>
+    </section>
   </section>
-  <section id="section2-3">
-    <h5>Endorse as a Business or Organization</h5>
-    <p>Join <span class="animate_number">40</span> other Portland-based businesses and organizations that have endorsed a ban on the sale of new fur products!</p>
-    <a class="waves-effect waves-light orange btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdeUH9dBKz25AQsKARCTSwgMnYp8E1qFY9Wh1wj3bUBEg0bTQ/viewform">Endorse</a>
+  <section id="section3">
+    <section>
+      <h4>Fur Industry Facts</h4>
+      <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2 bt_prev"><</a>
+          <a class="btn waves-effect white grey-text darken-text-2 bt_next">></a>
+        </div>
+        <div class="carousel-item" href="#one!">
+          <p>Each year, more than 1 billion animals are killed for their fur worldwide, including rabbits, mink, foxes, coyotes, chinchillas, rabbits, seals, dogs, and cats.</p>
+        </div>
+        <div class="carousel-item" href="#two!">
+          <p>Roughly 85% of animals killed for fur are raised on fur factory farms, with the remainder trapped in the wild.</p>
+        </div>
+        <div class="carousel-item" href="#three!">
+          <p>Animals killed on fur farms spend their entire lives in cramped cages. These species are wild, with territorial ranges in the hundreds of acres. The confinement and boredom often leads to cage psychosis - frantic pacing, self-mutilation, and cannibalism.</p>
+        </div>
+        <div class="carousel-item" href="#four!">
+          <p>Animals trapped in the wild are often stuck in traps for days, exposed to the elements, injured and bleeding, and without food or water. Traps are indiscriminate, sometimes killing companion animals and endangered species.</p>
+        </div>
+        <div class="carousel-item" href="#five!">
+          <p>Common methods of killing animals on fur farms are anal electrocution, gassing, suffocation, and neck-breaking, while trapped animals are often either shot or bludgeoned to death.</p>
+        </div>
+        <div class="carousel-item" href="#six!">
+          <p>There at 18 fur farms in Oregon, but most fur sold in stores is imported from China and other countries with little to no regulation.</p>
+        </div>
+        <div class="carousel-item" href="#seven!">
+          <p>Fur farming is banned in many European countries including the UK, Germany, Belgium, Norway, Austria, The Czech Republic, Slovenia, and Serbia.</p>
+        </div>
+        <div class="carousel-item" href="#eight!">
+          <p>The sale and manufacture of fur is banned in several US cities including Los Angeles, San Francisco, Berkeley, and West Hollywood.</p>
+        </div>
+        <div class="carousel-item" href="#nine!">
+          <p>According to Michigan State University, the US mink industry alone adds almost 1,000 tons of nitrogen and phosphorus into the environment each year. Fur is processed with harmful carcinogenic chemicals, including chromium and formaldehyde.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h4>Fur Ban FAQ</h4>
+      <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2 bt_prev"><</a>
+          <a class="btn waves-effect white grey-text darken-text-2 bt_next">></a>
+        </div>
+        <div class="carousel-item" href="#one!">
+          <h2>What would the fur ban do?</h2>
+          <p>This ordinance would prohibit the manufacture and sale of new fur products within the city of Portland. This includes (but is not limited to) coats with fur trim, handbags, shoes, hats, and key chains.</p>
+        </div>
+        <div class="carousel-item" href="#two!">
+          <h2>Why Portland?</h2>
+          <p>Portland has long been a leader in enacting policies to help animals and the environment. It was an early adopter of the Bottle Bill, passed some of the nation’s most restrictive puppy mill laws in 2010, banned plastic bags in 2011, and just passed a strong law restricting single-use plastic. Joining other cities in prohibiting this archaic, cruel, and unnecessary product is in line with Portland’s progressive ethics.</p>
+        </div>
+        <div class="carousel-item" href="#three!">
+          <h2>Won't this hurt local business?</h2>
+          <p>Most fur sold in Portland is imported from China or Canada. No businesses in Portland rely solely on the sale of fur and for those that do, it is a negligible amount of sales. However, in order to mitigate any economic impacts, there will likely be a one-year cushion after the ban takes effect to sell any fur products that they purchased prior to the ordinance adoption date.</p>
+        </div>
+        <div class="carousel-item" href="#four!">
+          <h2>What about the loss of taxes?</h2>
+          <p>There is no sales tax in Oregon. This ban would have no impact on taxes.</p>
+        </div>
+        <div class="carousel-item" href="#five!">
+          <h2>Isn’t faux fur made from plastic and bad for the environment?</h2>
+          <p>Faux fur can be made from recycled or biodegradable materials, or can simply be avoided. The fur industry contributes to water pollution through the discharge of nitrogen and phosphorous. Fur is processed with carcinogenic chemicals, including chromium and formaldehyde, which can damage human health and prevents it from being biodegradable. It takes fifteen times more energy to make a coat from animal fur than from faux fur.</p>
+        </div>
+        <div class="carousel-item" href="#six!">
+          <h2>Will people be banned from wearing fur?</h2>
+          <p>No. The law only regulates the manufacture and sale of fur within the city of Portland.</p>
+        </div>
+        <div class="carousel-item" href="#seven!">
+          <h2>What about the sale of “vintage” fur and used clothing? What about leather, etc?</h2>
+          <p>The law only regulates the manufacture and sale of new fur items. Used fur items, as well as leather, cowhide and lambskin/sheepskin, even with hair attached are all exempt.</p>
+        </div>
+        <div class="carousel-item" href="#eight!">
+          <h2>It can’t be done. The industry is too powerful.</h2>
+          <p>Not true. West Hollywood banned the sale of fur in 2013 when fur sales were estimated at two million dollars annually. Four cities and counting have adopted similar bans, and a statewide fur ban bill is currently moving through the California State Assembly.</p>
+        </div>
+      </div>
+    </section>
   </section>
-</section>
-<section id="section3">
-  <section>
-    <h4>Fur Industry Facts</h4>
-    <div class="carousel carousel-slider center">
-      <div class="carousel-fixed-item center">
-        <a class="btn waves-effect white grey-text darken-text-2 bt_prev"><</a>
-        <a class="btn waves-effect white grey-text darken-text-2 bt_next">></a>
+  <section id="section_logos">
+    <div>Over 40 local businesses and organizations have endorsed the ban on the sale of new fur products.</div>
+    <img src="logos.png"/>
+  </section>
+
+
+
+
+
+
+
+  <!-- <div id="modal2" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4></h4>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">╳</a>
       </div>
-      <div class="carousel-item" href="#one!">
-        <p>Each year, more than 1 billion animals are killed for their fur worldwide, including rabbits, mink, foxes, coyotes, chinchillas, rabbits, seals, dogs, and cats.</p>
-      </div>
-      <div class="carousel-item" href="#two!">
-        <p>Roughly 85% of animals killed for fur are raised on fur factory farms, with the remainder trapped in the wild.</p>
-      </div>
-      <div class="carousel-item" href="#three!">
-        <p>Animals killed on fur farms spend their entire lives in cramped cages. These species are wild, with territorial ranges in the hundreds of acres. The confinement and boredom often leads to cage psychosis - frantic pacing, self-mutilation, and cannibalism.</p>
-      </div>
-      <div class="carousel-item" href="#four!">
-        <p>Animals trapped in the wild are often stuck in traps for days, exposed to the elements, injured and bleeding, and without food or water. Traps are indiscriminate, sometimes killing companion animals and endangered species.</p>
-      </div>
-      <div class="carousel-item" href="#five!">
-        <p>Common methods of killing animals on fur farms are anal electrocution, gassing, suffocation, and neck-breaking, while trapped animals are often either shot or bludgeoned to death.</p>
-      </div>
-      <div class="carousel-item" href="#six!">
-        <p>There at 18 fur farms in Oregon, but most fur sold in stores is imported from China and other countries with little to no regulation.</p>
-      </div>
-      <div class="carousel-item" href="#seven!">
-        <p>Fur farming is banned in many European countries including the UK, Germany, Belgium, Norway, Austria, The Czech Republic, Slovenia, and Serbia.</p>
-      </div>
-      <div class="carousel-item" href="#eight!">
-        <p>The sale and manufacture of fur is banned in several US cities including Los Angeles, San Francisco, Berkeley, and West Hollywood.</p>
-      </div>
-      <div class="carousel-item" href="#nine!">
-        <p>According to Michigan State University, the US mink industry alone adds almost 1,000 tons of nitrogen and phosphorus into the environment each year. Fur is processed with harmful carcinogenic chemicals, including chromium and formaldehyde.</p>
-      </div>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdeUH9dBKz25AQsKARCTSwgMnYp8E1qFY9Wh1wj3bUBEg0bTQ/viewform?embedded=true" width="640" height="1710" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
-  </section>
-  <section>
-    <h4>Fur Ban FAQ</h4>
-    <div class="carousel carousel-slider center">
-      <div class="carousel-fixed-item center">
-        <a class="btn waves-effect white grey-text darken-text-2 bt_prev"><</a>
-        <a class="btn waves-effect white grey-text darken-text-2 bt_next">></a>
-      </div>
-      <div class="carousel-item" href="#one!">
-        <h2>What would the fur ban do?</h2>
-        <p>This ordinance would prohibit the manufacture and sale of new fur products within the city of Portland. This includes (but is not limited to) coats with fur trim, handbags, shoes, hats, and key chains.</p>
-      </div>
-      <div class="carousel-item" href="#two!">
-        <h2>Why Portland?</h2>
-        <p>Portland has long been a leader in enacting policies to help animals and the environment. It was an early adopter of the Bottle Bill, passed some of the nation’s most restrictive puppy mill laws in 2010, banned plastic bags in 2011, and just passed a strong law restricting single-use plastic. Joining other cities in prohibiting this archaic, cruel, and unnecessary product is in line with Portland’s progressive ethics.</p>
-      </div>
-      <div class="carousel-item" href="#three!">
-        <h2>Won't this hurt local business?</h2>
-        <p>Most fur sold in Portland is imported from China or Canada. No businesses in Portland rely solely on the sale of fur and for those that do, it is a negligible amount of sales. However, in order to mitigate any economic impacts, there will likely be a one-year cushion after the ban takes effect to sell any fur products that they purchased prior to the ordinance adoption date.</p>
-      </div>
-      <div class="carousel-item" href="#four!">
-        <h2>What about the loss of taxes?</h2>
-        <p>There is no sales tax in Oregon. This ban would have no impact on taxes.</p>
-      </div>
-      <div class="carousel-item" href="#five!">
-        <h2>Isn’t faux fur made from plastic and bad for the environment?</h2>
-        <p>Faux fur can be made from recycled or biodegradable materials, or can simply be avoided. The fur industry contributes to water pollution through the discharge of nitrogen and phosphorous. Fur is processed with carcinogenic chemicals, including chromium and formaldehyde, which can damage human health and prevents it from being biodegradable. It takes fifteen times more energy to make a coat from animal fur than from faux fur.</p>
-      </div>
-      <div class="carousel-item" href="#six!">
-        <h2>Will people be banned from wearing fur?</h2>
-        <p>No. The law only regulates the manufacture and sale of fur within the city of Portland.</p>
-      </div>
-      <div class="carousel-item" href="#seven!">
-        <h2>What about the sale of “vintage” fur and used clothing? What about leather, etc?</h2>
-        <p>The law only regulates the manufacture and sale of new fur items. Used fur items, as well as leather, cowhide and lambskin/sheepskin, even with hair attached are all exempt.</p>
-      </div>
-      <div class="carousel-item" href="#eight!">
-        <h2>It can’t be done. The industry is too powerful.</h2>
-        <p>Not true. West Hollywood banned the sale of fur in 2013 when fur sales were estimated at two million dollars annually. Four cities and counting have adopted similar bans, and a statewide fur ban bill is currently moving through the California State Assembly.</p>
-      </div>
-    </div>
-  </section>
-</section>
-<section id="section_logos">
-  <div>Over 40 local businesses and organizations have endorsed the ban on the sale of new fur products.</div>
-  <img src="logos.png"/>
-</section>
+  </div> -->
 
-
-
-
-
-
-
-<!-- <div id="modal2" class="modal modal-fixed-footer">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h4></h4>
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">╳</a>
-    </div>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdeUH9dBKz25AQsKARCTSwgMnYp8E1qFY9Wh1wj3bUBEg0bTQ/viewform?embedded=true" width="640" height="1710" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-  </div>
-</div> -->
-
-
+</main>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {

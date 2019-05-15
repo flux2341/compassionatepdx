@@ -5,7 +5,7 @@ include('header.php');
 ?>
 
 <style>
-  #whyfur {
+  main {
     max-width:600px;
     margin:0 auto;
     margin-bottom:50px;
@@ -15,11 +15,11 @@ include('header.php');
     text-align:center;
     margin:40px;
   }
-  li {
+  main li {
     margin:20px 0;
   }
 </style>
-<div id="whyfur">
+<main>
 
   <h4>Why Ban Fur?</h4>
 
@@ -47,7 +47,7 @@ include('header.php');
     <li>Fur farming is banned in many European countries including the UK, Germany, Belgium, Norway, Austria, The Czech Republic, Slovenia, and Serbia. <a href="https://www.furfreealliance.com/fur-bans/">Fur Free Alliance</a></li>
     <li>The sale and manufacture of fur is banned in several US cities including Los Angeles, San Francisco, Berkeley, and West Hollywood.</li>
   </ul>
-</div>
+</main>
 
 <?php
 include('footer.php');

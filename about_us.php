@@ -4,7 +4,7 @@ include('header.php');
 ?>
 
 <style>
-  #about_us_div {
+  main {
     max-width:600px;
     margin:0 auto;
     height:100%;
@@ -17,7 +17,7 @@ include('header.php');
 
 
 
-<div id="about_us_div">
+<main>
   <h4>About Us</h4>
   <p>Compassionate PDX is a grass-roots group of volunteers dedicated to creating political change in favor of non-human animals. Our local chapter is affilliated with <a href="https://compassionatecity.org/">Compassionate Cities</a>, along with several other cities including Berkeley, San Diego, and Toronto. Compassionate Cities was formed out of the fur ban that passed in San Francisco.</p>
   <div class="contact_us">
@@ -25,6 +25,8 @@ include('header.php');
     <a href="mailto:compassionateportland@gmail.com">Email</a>
     <a href="https://www.facebook.com/compassionatepdx/">Facebook</a>
   </div>
-</div>
-</body>
-</html>
+</main>
+
+<?php
+include('footer.php');
+?>
