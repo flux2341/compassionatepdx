@@ -15,7 +15,7 @@ include('header.php');
     text-align:center;
   }
 </style>
-<div id="app">
+<main id="app">
   <h4>Contact Your City Commissioners</h4>
   <p>The city commissioners are elected officials that represent the people of Portland. If you are a resident of Portland, <b>email</b> them and follow up with a <b>phone call</b> to let them know you support a ban on the sale of new fur products.</p>
   <hr/>
@@ -25,7 +25,7 @@ include('header.php');
     <div><b>Email:</b> <a v-bind:href="'mailto:'+commissioner.email">{{commissioner.email}}</a></div>
     <div><b>Phone:</b> <a v-bind:href="'tel:'+commissioner.phone">{{commissioner.phone}}</a></div>
   </div>
-</div>
+</main>
 <script>
   let app = new Vue({
     el: '#app',

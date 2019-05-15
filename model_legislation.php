@@ -31,5 +31,5 @@ include('header.php');
 </main>
 
 <?php
-include('header.php');
+include('footer.php');
 ?>
