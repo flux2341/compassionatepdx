@@ -1,7 +1,7 @@
 <?php
 include('header.php');
 ?>
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
 <style>
   .commissioner {
     margin:10px;

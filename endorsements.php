@@ -178,7 +178,7 @@ include('header.php');
         url: 'https://ecovibeapparel.com/'
       },{
         name: 'Hairodactyl',
-        logo: 'hairodactyl.png',
+        logo: 'hairodactyl.jpg',
         url: 'http://hairodactyl.com/'
       },{
         name: 'Do Rad Cuts & Color',

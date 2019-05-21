@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compassionate PDX</title>
-
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <link href="https://unpkg.com/normalize.css@8.0.1/normalize.css" rel="stylesheet"/>
+
 
     <!-- Fonts -->
     <!-- <link href="https://db.onlinewebfonts.com/c/d60b13a925ef3dfc380e1dcd4cc5673b?family=IndustryIncW00-Base" rel="stylesheet" type="text/css"/> -->
