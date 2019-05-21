@@ -1,7 +1,6 @@
 <?php
 include('header.php');
 ?>
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <style>
   .location {
     margin:10px;
