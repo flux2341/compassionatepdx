@@ -153,7 +153,7 @@ include('header.php');
 
 <main>
   <section id="section1">
-    <img src="fox-header.png"/>
+    <img src="./content/fox-header.png"/>
     <pre>Together
   We Can
   Make Fur

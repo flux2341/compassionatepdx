@@ -9,7 +9,7 @@ include('header.php');
     max-width:600px;
     margin:0 auto;
     margin-bottom:50px;
-    padding:10px;
+    padding:20px;
   }
   h4 {
     text-align:center;
@@ -42,7 +42,7 @@ include('header.php');
     <li>A ban would have little impact on the local economy. Fewer than 10 stores regularly sell fur items, and those that do, it's an insignificant part of their overall sales.</li>
     <li>Joining other cities in prohibiting this archaic, cruel, and unnecessary product is in line with Portland’s progressive ethics.</li>
   </ul>
-  <h5>It's Been Banned Elsewhere</h5>
+  <h5>It's Been Banned Successfully Before</h5>
   <ul class="browser-default">
     <li>Fur farming is banned in many European countries including the UK, Germany, Belgium, Norway, Austria, The Czech Republic, Slovenia, and Serbia. <a href="https://www.furfreealliance.com/fur-bans/">Fur Free Alliance</a></li>
     <li>The sale and manufacture of fur is banned in several US cities including Los Angeles, San Francisco, Berkeley, and West Hollywood.</li>

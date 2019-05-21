@@ -20,7 +20,7 @@ include('header.php');
 
 <main>
   <h4>Model Legislation</h4>
-  <p>Our model legislation is based on the ban that was passed in San Francisco. It is a city ordinance that prohibits the manufacture and sale of new fur products within city limits: fur coats, coats with fur trim, handbags, shoes, hats, and keychains. You can view the full text <a href="Portland Fur Ban Ordinance Draft.pdf">here</a>.</p>
+  <p>Our model legislation is based on the ban that was passed in San Francisco. It is a city ordinance that prohibits the manufacture and sale of new fur products within city limits: fur coats, coats with fur trim, handbags, shoes, hats, and keychains. You can view the full text <a href="./content/Portland Fur Ban Ordinance Draft.pdf">here</a>.</p>
   <ul class="browser-default">
     <li>1 year phase-in period for companies to sell current stock</li>
     <li>Does not cover the sale of used or vintage fur</li>

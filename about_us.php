@@ -13,6 +13,9 @@ include('header.php');
   .contact_us > * {
     margin-right:10px;
   }
+  main h4 {
+    text-align:center;
+  }
 </style>
 
 
