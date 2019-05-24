@@ -29,14 +29,7 @@ include('header.php');
     height:300px !important;
   } */
 
-  #section_logos {
-    text-align:center;
-    width:800px;
-    margin:0 auto;
-  }
-  #section_logos div {
-    font-size:20px;
-  }
+
 </style>
 
 <style>
@@ -121,6 +114,8 @@ include('header.php');
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
+    margin:0 auto;
+    max-width:600px;
   }
   .endorsement {
     margin:20px;
@@ -129,11 +124,8 @@ include('header.php');
     width:100px;
   }
   #section_logos {
-    max-width:600px;
-    margin:0 auto;
+
     padding:10px;
-  }
-  #section_logos h4 {
     text-align:center;
   }
 
@@ -162,10 +154,6 @@ include('header.php');
     #section3 section {
       width:80% !important;
       margin: 30px 10px !important;
-    }
-
-    #section_logos {
-      width:100%;
     }
   }
 </style>
@@ -277,7 +265,8 @@ include('header.php');
     </section>
   </section>
   <section id="section_logos">
-    <div>Over 40 local businesses and organizations have endorsed the ban on the sale of new fur products.</div>
+
+    <h5>30 local businesses have endorsed the ban on the sale of new fur products.</h5>
     <div class="endorsement_container">
       <a v-for="endorsement in endorsements"
          class="endorsement"
@@ -285,6 +274,17 @@ include('header.php');
          v-bind:title="endorsement.name"
          target="_blank">
         <img v-bind:src="'./content/endorsement_logos/' + endorsement.logo"/>
+      </a>
+    </div>
+    <br/>
+    <h5>12 local, national, and international organizations are in our coalition</h5>
+    <div class="endorsement_container">
+      <a v-for="coalition_member in coalition"
+         class="endorsement"
+         v-bind:href="coalition_member.url"
+         v-bind:title="coalition_member.name"
+         target="_blank">
+        <img v-bind:src="'./content/endorsement_logos/' + coalition_member.logo"/>
       </a>
     </div>
   </section>
@@ -390,6 +390,53 @@ include('header.php');
   let app = new Vue({
     el: '#section_logos',
     data: {
+      coalition: [
+        {
+          name: 'Anonymous for the Voiceless',
+          logo: 'anonymous_for_the_voiceless.png',
+          url: 'https://www.anonymousforthevoiceless.org/'
+        },{
+          name: 'Direct Action Everywhere',
+          logo: 'direct_action_everywhere.jpg',
+          url: 'https://www.directactioneverywhere.com/'
+        },{
+          name: 'Portland Animal Save',
+          logo: 'portland_animal_save.jpg',
+          url: 'http://thesavemovement.org/'
+        },{
+          name: 'Sea Shepherd Conservation Society',
+          logo: 'sea_shepherd.png',
+          url: 'https://seashepherd.org/'
+        },{
+          name: 'Try Vegan PDX',
+          logo: 'try_vegan_pdx.jpeg',
+          url: 'https://tryveganpdx.org/'
+        },{
+          name: 'Humane Voters Oregon',
+          logo: 'humane_voters_oregon.png',
+          url: 'https://www.humanevotersoregon.org/'
+        },{
+          name: 'Unitarian Universalist Animal Ministry',
+          logo: 'uuam.jpg',
+          url: 'https://uuam.org/wp/'
+        },{
+          name: 'Northwest Animal Foundation',
+          logo: 'nw_animal_foundation.png',
+          url: 'http://www.nwanimalfoundation.org/'
+        },{
+          name: 'Animal Defenders International',
+          logo: 'animal_defenders_international.jpg',
+          url: 'http://www.ad-international.org/adi_home/'
+        },{
+          name: 'Voters of Animal Rights',
+          logo: 'vfar.jpg',
+          url: 'https://vfar.org/'
+        },{
+          name: 'In Defense of Animals',
+          logo: 'ida.png',
+          url: 'https://www.idausa.org/'
+        }
+      ],
       endorsements: [{
         name: 'Food Fight! Grocery',
         logo: 'food_fight.jpg',
@@ -471,38 +518,6 @@ include('header.php');
         logo: 'cultured_kindness.jpg',
         url: 'https://www.facebook.com/CulturedKindness/'
       },{
-        name: 'Anonymous for the Voiceless',
-        logo: 'anonymous_for_the_voiceless.png',
-        url: 'https://www.anonymousforthevoiceless.org/'
-      },{
-        name: 'Direct Action Everywhere',
-        logo: 'direct_action_everywhere.jpg',
-        url: 'https://www.directactioneverywhere.com/'
-      },{
-        name: 'Portland Animal Save',
-        logo: 'portland_animal_save.jpg',
-        url: 'http://thesavemovement.org/'
-      },{
-        name: 'Sea Shepherd Conservation Society',
-        logo: 'sea_shepherd.png',
-        url: 'https://seashepherd.org/'
-      },{
-        name: 'Try Vegan PDX',
-        logo: 'try_vegan_pdx.jpeg',
-        url: 'https://tryveganpdx.org/'
-      },{
-        name: 'Humane Voters Oregon',
-        logo: 'humane_voters_oregon.png',
-        url: 'https://www.humanevotersoregon.org/'
-      },{
-        name: 'Unitarian Universalist Animal Ministry',
-        logo: 'uuam.jpg',
-        url: 'https://uuam.org/wp/'
-      },{
-        name: 'Northwest Animal Foundation',
-        logo: 'nw_animal_foundation.png',
-        url: 'http://www.nwanimalfoundation.org/'
-      },{
         name: 'Plant Powered Insurance',
         logo: 'plant_powered_insurance.png',
         url: 'https://www.facebook.com/Plantpoweredinsurance/'
@@ -512,12 +527,8 @@ include('header.php');
         url: 'https://www.blueenvelope.productions/'
       },{
         name: 'Wild Pup Adventure',
-        logo: 'wild_pup_adventure.gif',
+        logo: 'wild_pup_adventure.jpg',
         url: 'http://www.wildpupadventure.com/'
-      },{
-        name: 'Animal Defenders International',
-        logo: 'animal_defenders_international.jpg',
-        url: 'http://www.ad-international.org/adi_home/'
       },{
         name: 'Carlisle Joy Jewelry',
         logo: 'carlisle_joy.jpg',
