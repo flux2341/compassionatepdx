@@ -266,7 +266,7 @@ include('header.php');
   </section>
   <section id="section_logos">
 
-    <h5>30 local businesses have endorsed the ban on the sale of new fur products.</h5>
+    <h5>Over 40 local businesses have endorsed the ban on the sale of new fur products.</h5>
     <div class="endorsement_container">
       <a v-for="endorsement in endorsements"
          class="endorsement"
@@ -277,7 +277,7 @@ include('header.php');
       </a>
     </div>
     <br/>
-    <h5>12 local, national, and international organizations are in our coalition</h5>
+    <h5>14 local, national, and international organizations are in our coalition</h5>
     <div class="endorsement_container">
       <a v-for="coalition_member in coalition"
          class="endorsement"
@@ -432,9 +432,21 @@ include('header.php');
           logo: 'vfar.jpg',
           url: 'https://vfar.org/'
         },{
+          name: 'Fur Free NYC',
+          logo: 'fur_free_nyc.png',
+          url: 'https://www.furfreenyc.com/'
+        },{
           name: 'In Defense of Animals',
           logo: 'ida.png',
           url: 'https://www.idausa.org/'
+        },{
+          name: 'Wildwood Farm Sanctuary',
+          logo: 'wildwood_farm_sanctuary.jpg',
+          url: 'https://wildwoodfarmsanctuary.org/'
+        },{
+          name: 'Out to Pasture Sanctuary',
+          logo: 'out_to_pasture_sanctuary.png',
+          url: 'https://www.outtopasturesanctuary.org/'
         }
       ],
       endorsements: [{
@@ -545,6 +557,34 @@ include('header.php');
         name: 'Do Rad Cuts & Color',
         logo: 'do_rad_cuts_and_color.jpg',
         url: 'https://www.facebook.com/doradcutsandcolor'
+      },{
+        name: 'Jane Does',
+        logo: 'jane_does.jpg',
+        url: 'https://www.janedoes.us/'
+      },{
+        name: 'Marz Nutritionals',
+        logo: 'marz_nutritionals.jpg',
+        url: 'https://www.marznutrition.net/'
+      },{
+        name: 'Obon',
+        logo: 'obon.jpg',
+        url: 'https://www.facebook.com/obon.tasty.japanese/'
+      },{
+        name: 'Shields Films',
+        logo: 'shields_films.png',
+        url: 'https://www.shieldsfilms.tv/'
+      },{
+        name: 'Tabor Hill Clinic',
+        logo: 'tabor_hill_clinic.png',
+        url: 'https://www.taborhillclinic.org/'
+      },{
+        name: 'Three Sisters Nixtamal',
+        logo: 'three_sisters_nixtamal.png',
+        url: 'http://www.threesisterspdx.com/'
+      },{
+        name: 'John G. Collins, ND',
+        logo: 'john_g_collins.jpg',
+        url: 'https://johncollinsnd.com/'
       }]
     }
   })

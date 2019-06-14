@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compassionate PDX</title>
+    <title>Fur Free PDX</title>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <link href="https://unpkg.com/normalize.css@8.0.1/normalize.css" rel="stylesheet"/>
 
@@ -91,7 +91,7 @@
   <body>
     <header>
       <a href="#" data-target="slide-out" class="sidenav-trigger left"><i class="material-icons">menu</i></a>
-      <a href="/">Compassionate PDX</a>
+      <a href="/">#FurFreePDX</a>
     </header>
     <ul id="slide-out" class="sidenav">
       <li><a href="/">Home</a></li>
