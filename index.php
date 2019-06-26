@@ -115,7 +115,7 @@ include('header.php');
     align-items:center;
     flex-wrap:wrap;
     margin:0 auto;
-    max-width:600px;
+    max-width:1000px;
   }
   .endorsement {
     margin:20px;
@@ -181,8 +181,8 @@ include('header.php');
     </section>
     <section id="section2-3">
       <h5>Endorse as a Business or Organization</h5>
-      <p>Join <span class="animate_number">40</span> other Portland-based businesses and organizations that have endorsed a ban on the sale of new fur products!</p>
-      <a class="waves-effect waves-light orange btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdeUH9dBKz25AQsKARCTSwgMnYp8E1qFY9Wh1wj3bUBEg0bTQ/viewform">Endorse</a>
+      <p>Join <span class="animate_number">40</span> other Portland-based businesse that have endorsed the ban on the sale of new fur products!</p>
+      <a class="waves-effect waves-light orange btn" href="https://forms.gle/N2BKGuJMRR5ssxQM9">Endorse</a>
     </section>
   </section>
   <section id="section3">
@@ -266,9 +266,10 @@ include('header.php');
   </section>
   <section id="section_logos">
 
-    <h5>Over 40 local businesses have endorsed the ban on the sale of new fur products.</h5>
+    <h5>Over 40 local businesses have endorsed the ban on the sale of new fur products.&nbsp;<a href="https://forms.gle/N2BKGuJMRR5ssxQM9" class="btn orange">Endorse</a>&nbsp;<a href="endorsement_letter.php" class="btn orange">View Letter</a></h5>
     <div class="endorsement_container">
       <a v-for="endorsement in endorsements"
+         v-if="endorsement.logo"
          class="endorsement"
          v-bind:href="endorsement.url"
          v-bind:title="endorsement.name"
@@ -277,7 +278,7 @@ include('header.php');
       </a>
     </div>
     <br/>
-    <h5>14 local, national, and international organizations are in our coalition</h5>
+    <h5>15 local, national, and international organizations are in our coalition</h5>
     <div class="endorsement_container">
       <a v-for="coalition_member in coalition"
          class="endorsement"
@@ -307,6 +308,7 @@ include('header.php');
 
 </main>
 
+<script src="./content/endorsements.js" type="text/javascript"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.modal');
@@ -390,202 +392,8 @@ include('header.php');
   let app = new Vue({
     el: '#section_logos',
     data: {
-      coalition: [
-        {
-          name: 'Anonymous for the Voiceless',
-          logo: 'anonymous_for_the_voiceless.png',
-          url: 'https://www.anonymousforthevoiceless.org/'
-        },{
-          name: 'Direct Action Everywhere',
-          logo: 'direct_action_everywhere.jpg',
-          url: 'https://www.directactioneverywhere.com/'
-        },{
-          name: 'Portland Animal Save',
-          logo: 'portland_animal_save.jpg',
-          url: 'http://thesavemovement.org/'
-        },{
-          name: 'Sea Shepherd Conservation Society',
-          logo: 'sea_shepherd.png',
-          url: 'https://seashepherd.org/'
-        },{
-          name: 'Try Vegan PDX',
-          logo: 'try_vegan_pdx.jpeg',
-          url: 'https://tryveganpdx.org/'
-        },{
-          name: 'Humane Voters Oregon',
-          logo: 'humane_voters_oregon.png',
-          url: 'https://www.humanevotersoregon.org/'
-        },{
-          name: 'Unitarian Universalist Animal Ministry',
-          logo: 'uuam.jpg',
-          url: 'https://uuam.org/wp/'
-        },{
-          name: 'Northwest Animal Foundation',
-          logo: 'nw_animal_foundation.png',
-          url: 'http://www.nwanimalfoundation.org/'
-        },{
-          name: 'Animal Defenders International',
-          logo: 'animal_defenders_international.jpg',
-          url: 'http://www.ad-international.org/adi_home/'
-        },{
-          name: 'Voters of Animal Rights',
-          logo: 'vfar.jpg',
-          url: 'https://vfar.org/'
-        },{
-          name: 'Fur Free NYC',
-          logo: 'fur_free_nyc.png',
-          url: 'https://www.furfreenyc.com/'
-        },{
-          name: 'In Defense of Animals',
-          logo: 'ida.png',
-          url: 'https://www.idausa.org/'
-        },{
-          name: 'Wildwood Farm Sanctuary',
-          logo: 'wildwood_farm_sanctuary.jpg',
-          url: 'https://wildwoodfarmsanctuary.org/'
-        },{
-          name: 'Out to Pasture Sanctuary',
-          logo: 'out_to_pasture_sanctuary.png',
-          url: 'https://www.outtopasturesanctuary.org/'
-        }
-      ],
-      endorsements: [{
-        name: 'Food Fight! Grocery',
-        logo: 'food_fight.jpg',
-        url: 'https://foodfightgrocery.com/'
-      },{
-        name: 'Sweetpea Baking Co.',
-        logo: 'sweetpea.jpg',
-        url: 'https://sweetpeabaking.com/'
-      },{
-        name: 'Herbivore Clothing Company',
-        logo: 'herbivore.jpg',
-        url: 'https://www.herbivoreclothing.com/'
-      },{
-        name: 'Scapegoat Tattoo',
-        logo: 'scapegoat.jpg',
-        url: 'https://www.scapegoattattoo.com/'
-      },{
-        name: 'Next Level Burger',
-        logo: 'next_level_burger.jpg',
-        url: 'https://www.nextlevelburger.com/'
-      },{
-        name: 'No Bones Beach Club',
-        logo: 'no_bones.jpg',
-        url: 'https://nobonesbeachclub.com/'
-      },{
-        name: 'Vtopia Restaurant & Cheese Shop',
-        logo: 'vtopia.jpg',
-        url: 'https://www.eatvtopia.com/'
-      },{
-        name: 'Ichiza Kitchen',
-        logo: 'ichiza.jpg',
-        url: 'https://www.ichizakitchen.com/'
-      },{
-        name: 'Shoofly Vegan Bakery',
-        logo: 'shoofly.jpg',
-        url: 'https://shooflyveganbakery.com/'
-      },{
-        name: 'Oracle Coffee Co',
-        logo: 'oracle_coffee.png',
-        url: 'https://www.oraclecoffee.com/'
-      },{
-        name: 'Canteen',
-        logo: 'canteen.jpg',
-        url: 'http://www.canteenpdx.com/'
-      },{
-        name: 'SushiLove',
-        logo: 'sushilove.jpg',
-        url: 'https://www.sushilovepdx.com/'
-      },{
-        name: 'Guilder Cafe',
-        logo: 'guilder_coffee.png',
-        url: 'https://www.guildercafe.com/'
-      },{
-        name: 'Flying Cat Coffee Co.',
-        logo: 'flying_cat_coffee_co.jpg',
-        url: 'https://www.facebook.com/flyingcatcoffee/'
-      },{
-        name: 'Hail Snail',
-        logo: 'hail_snail.jpg',
-        url: 'https://hailsnailpdx.com/'
-      },{
-        name: 'Woodstock Natural Health Clinic',
-        logo: 'woodstock_natural_health_clinic.jpg',
-        url: 'http://www.woodstockclinic.com/'
-      },{
-        name: 'Snackrilege',
-        logo: 'snackrilege.png',
-        url: 'http://snackrilege.com/'
-      },{
-        name: 'Wild Friends Foods',
-        logo: 'wild_friends.png',
-        url: 'https://wildfriendsfoods.com/'
-      },{
-        name: 'Earthly Gourmet',
-        logo: 'earthly_gourmet.jpg',
-        url: 'https://www.earthlygourmet.com/'
-      },{
-        name: 'Cultured Kindness',
-        logo: 'cultured_kindness.jpg',
-        url: 'https://www.facebook.com/CulturedKindness/'
-      },{
-        name: 'Plant Powered Insurance',
-        logo: 'plant_powered_insurance.png',
-        url: 'https://www.facebook.com/Plantpoweredinsurance/'
-      },{
-        name: 'Blue Envelope Productions',
-        logo: 'blue_envelope.png',
-        url: 'https://www.blueenvelope.productions/'
-      },{
-        name: 'Wild Pup Adventure',
-        logo: 'wild_pup_adventure.jpg',
-        url: 'http://www.wildpupadventure.com/'
-      },{
-        name: 'Carlisle Joy Jewelry',
-        logo: 'carlisle_joy.jpg',
-        url: 'https://www.facebook.com/carlislejoyjewelry/'
-      },{
-        name: 'Ecovibe Apparel',
-        logo: 'ecovibe.png',
-        url: 'https://ecovibeapparel.com/'
-      },{
-        name: 'Hairodactyl',
-        logo: 'hairodactyl.jpg',
-        url: 'http://hairodactyl.com/'
-      },{
-        name: 'Do Rad Cuts & Color',
-        logo: 'do_rad_cuts_and_color.jpg',
-        url: 'https://www.facebook.com/doradcutsandcolor'
-      },{
-        name: 'Jane Does',
-        logo: 'jane_does.jpg',
-        url: 'https://www.janedoes.us/'
-      },{
-        name: 'Marz Nutritionals',
-        logo: 'marz_nutritionals.jpg',
-        url: 'https://www.marznutrition.net/'
-      },{
-        name: 'Obon',
-        logo: 'obon.jpg',
-        url: 'https://www.facebook.com/obon.tasty.japanese/'
-      },{
-        name: 'Shields Films',
-        logo: 'shields_films.png',
-        url: 'https://www.shieldsfilms.tv/'
-      },{
-        name: 'Tabor Hill Clinic',
-        logo: 'tabor_hill_clinic.png',
-        url: 'https://www.taborhillclinic.org/'
-      },{
-        name: 'Three Sisters Nixtamal',
-        logo: 'three_sisters_nixtamal.png',
-        url: 'http://www.threesisterspdx.com/'
-      },{
-        name: 'John G. Collins, ND',
-        logo: 'john_g_collins.jpg',
-        url: 'https://johncollinsnd.com/'
-      }]
+      coalition: endorsement_coalition,
+      endorsements: endorsement_businesses
     }
   })
 </script>

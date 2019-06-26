@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fur Free PDX</title>
+    <title>#FurFreePDX</title>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <link href="https://unpkg.com/normalize.css@8.0.1/normalize.css" rel="stylesheet"/>
 
@@ -98,6 +98,7 @@
       <li><a href="why_ban_fur.php">Why Ban Fur?</a></li>
       <li><a href="commissioners.php">Take Action</a></li>
       <li><a href="petition_locations.php">Petition Locations</a></li>
+      <li><a href="endorsement_letter.php">Endorsement Letter</a></li>
       <li><a href="model_legislation.php">Model Legislation</a></li>
       <li><a href="https://compassionatecity.org/">Compassionate Cities</a></li>
       <li><a href="about_us.php">About us</a></li>
