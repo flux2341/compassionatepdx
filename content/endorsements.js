@@ -226,6 +226,10 @@ endorsement_businesses = [{
   logo: 'sip.png',
   url: 'http://www.sipjuicecart.com/'
 },{
+  name: 'Mittens Motel',
+  logo: 'mittens_motel.png',
+  url: 'http://mittensmotel.com/'
+},{
   name: 'The Bodhi Tree Institute',
   logo: null,
   url: 'https://lindyariff.com/'
