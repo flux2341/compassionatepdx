@@ -55,6 +55,10 @@ endorsement_coalition = [{
     logo: 'out_to_pasture_sanctuary.png',
     url: 'https://www.outtopasturesanctuary.org/'
   },{
+    name: 'Lighthouse Farm Sanctuary',
+    logo: 'lighthouse_farm_sanctuary.jpg',
+    url: 'https://www.lighthousefarmsanctuary.org/'
+  },{
     name: 'United in Heart',
     logo: 'united_in_heart.jpg',
     url: 'https://www.unitedinheart.com/'
@@ -205,6 +209,10 @@ endorsement_businesses = [{
   name: 'PDX Code Guild',
   logo: 'pdx_code_guild.jpg',
   url: 'https://pdxcodeguild.com/'
+},{
+  name: 'Radiant Tech Repair',
+  logo: 'radiant_tech_repair.png',
+  url: 'https://www.radiantrepair.com/'
 },{
   name: 'Eb & Bean',
   logo: 'eb_and_bean.png',
