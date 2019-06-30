@@ -230,6 +230,10 @@ endorsement_businesses = [{
   logo: 'mittens_motel.png',
   url: 'http://mittensmotel.com/'
 },{
+  name: 'Flourish Plant-Based Kitchen',
+  logo: 'flourish.png',
+  url: 'https://www.flourishthefoodtruck.com/'
+},{
   name: 'The Bodhi Tree Institute',
   logo: null,
   url: 'https://lindyariff.com/'
