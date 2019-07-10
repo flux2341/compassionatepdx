@@ -62,6 +62,10 @@ endorsement_coalition = [{
     name: 'United in Heart',
     logo: 'united_in_heart.jpg',
     url: 'https://www.unitedinheart.com/'
+  },{
+    name: 'Factory Farming Awareness Coalition',
+    logo: 'ffac.png',
+    url: 'https://www.ffacoalition.org/'
   }
 ]
 
@@ -233,6 +237,18 @@ endorsement_businesses = [{
   name: 'Flourish Plant-Based Kitchen',
   logo: 'flourish.png',
   url: 'https://www.flourishthefoodtruck.com/'
+},{
+  name: 'Hendrix & McGuire Optical',
+  logo: 'hendrix_and_mcguire_optical.jpg',
+  url: 'https://www.hendrixmcguire.com/'
+},{
+  name: 'Bake on the Run',
+  logo: 'bake_on_the_run.jpg',
+  url: 'https://www.facebook.com/bakeontherun/'
+},{
+  name: 'Green Dog Pet Supply',
+  logo: 'green_dog_pet_supply.jpg',
+  url: 'http://www.greendogpetsupply.com/'
 },{
   name: 'The Bodhi Tree Institute',
   logo: null,

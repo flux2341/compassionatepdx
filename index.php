@@ -266,7 +266,7 @@ include('header.php');
   </section>
   <section id="section_logos">
 
-    <h5>Over 40 local businesses have endorsed the ban on the sale of new fur products.&nbsp;<a href="https://forms.gle/N2BKGuJMRR5ssxQM9" class="btn orange">Endorse</a>&nbsp;<a href="endorsement_letter.php" class="btn orange">View Letter</a></h5>
+    <h5>Over 50 local businesses have endorsed the ban on the sale of new fur products.&nbsp;<a href="https://forms.gle/N2BKGuJMRR5ssxQM9" class="btn orange">Endorse</a>&nbsp;<a href="endorsement_letter.php" class="btn orange">View Letter</a></h5>
     <div class="endorsement_container">
       <a v-for="endorsement in endorsements"
          v-if="endorsement.logo"
@@ -278,7 +278,7 @@ include('header.php');
       </a>
     </div>
     <br/>
-    <h5>15 local, national, and international organizations are in our coalition</h5>
+    <h5>17 local, national, and international organizations are in our coalition</h5>
     <div class="endorsement_container">
       <a v-for="coalition_member in coalition"
          class="endorsement"
