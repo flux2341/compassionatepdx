@@ -26,7 +26,7 @@ include('header.php');
     <li>Does not cover the sale of used or vintage fur</li>
     <li>Does not prohibit people from wearing fur</li>
     <li>Does not cover the sale of fur from animals trapped within the state, which is managed by the Oregon Department of Fish and Wildlife</li>
-    <li>Does not apply to federally recognized Native American tribes</li>
+    <li>Does not apply to indigenous people of the Americas for religious or cultural uses</li>
   </ul>
 </main>
 
