@@ -171,7 +171,7 @@ include('header.php');
   <section id="section2">
     <section id="section2-1">
       <h5>Sign the Petition</h5>
-      <p>Join <span class="animate_number">2245</span> other Portland residents in signing the petition. There are 6 signature locations at local Portland businesses.</p>
+      <p>Join <span class="animate_number">3009</span> other Portland residents in signing the petition. There are 6 signature locations at local Portland businesses.</p>
       <a class="waves-effect waves-light orange btn" href="petition_locations.php">View Locations</a>
     </section>
     <section id="section2-2">
@@ -181,7 +181,7 @@ include('header.php');
     </section>
     <section id="section2-3">
       <h5>Endorse as a Business or Organization</h5>
-      <p>Join <span class="animate_number">40</span> other Portland-based businesse that have endorsed the ban on the sale of new fur products!</p>
+      <p>Join over <span class="animate_number">50</span> other Portland-based businesse that have endorsed the ban on the sale of new fur products!</p>
       <a class="waves-effect waves-light orange btn" href="https://forms.gle/N2BKGuJMRR5ssxQM9">Endorse</a>
     </section>
   </section>
