@@ -20,11 +20,12 @@ include('header.php');
 <main id="app">
   <h4>Sign the Petition</h4>
   <p>There are 6 local Portland businesses where you can sign the petition. Each signature helps convince the city commissioners that the people of Portland support a ban on the sale of new fur products. Together we can take a stand against this violent, cruel, and unnecessary industry.</p>
-  <img src="./content/standalone_petition_locations.png"/>
+  
   <div v-for="location in locations" class="location">
     <h5>{{location.name}}</h5>
     <div>{{location.address}}</div>
   </div>
+  <img src="./content/standalone_petition_locations.jpg"/>
 </main>
 <script>
   let app = new Vue({
@@ -37,17 +38,8 @@ include('header.php');
         name: 'Food Fight! Grocery',
         address: '1217 SE Stark St, Portland, OR 97214'
       },{
-        name: 'Food Fight! Grocery',
-        address: '11155 NE Halsey St, Portland, OR 97220'
-      },{
         name: 'Oracle Coffee Company',
         address: '3875 SW Bond Ave, Portland, OR 97239'
-      },{
-        name: 'Back to Eden Bakery Food Cart',
-        address: '4804 SE Woodstock Blvd, Portland, OR 97202'
-      },{
-        name: 'The Parlour - St. Johns',
-        address: '7327 N Charleston Ave, Portland OR 97203'
       }]
     }
   })

@@ -15,6 +15,10 @@ endorsement_coalition = [{
     logo: 'animal_defenders_international.jpg',
     url: 'http://www.ad-international.org/adi_home/'
   },{
+    name: 'Humane Society of the United States',
+    logo: 'hsus.jpg',
+    url: 'https://www.humanesociety.org/'
+  },{
     name: 'Anonymous for the Voiceless',
     logo: 'anonymous_for_the_voiceless.png',
     url: 'https://www.anonymousforthevoiceless.org/'
