@@ -171,7 +171,7 @@ include('header.php');
   <section id="section2">
     <section id="section2-1">
       <h5>Sign the Petition</h5>
-      <p>Join <span class="animate_number">3009</span> other Portland residents in signing the petition. There are 6 signature locations at local Portland businesses.</p>
+      <p>Join <span class="animate_number">4802</span> other Portland residents in signing the petition. There are 6 signature locations at local Portland businesses.</p>
       <a class="waves-effect waves-light orange btn" href="petition_locations.php">View Locations</a>
     </section>
     <section id="section2-2">

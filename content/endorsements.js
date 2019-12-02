@@ -19,6 +19,10 @@ endorsement_coalition = [{
     logo: 'hsus.jpg',
     url: 'https://www.humanesociety.org/'
   },{
+  	name: 'Fur Free Society',
+  	logo: 'fur_free_society.png',
+  	url: 'http://www.furfreesociety.org/'
+  },{
     name: 'Anonymous for the Voiceless',
     logo: 'anonymous_for_the_voiceless.png',
     url: 'https://www.anonymousforthevoiceless.org/'
