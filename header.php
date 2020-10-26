@@ -1,111 +1,201 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>#FurFreePDX</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <link href="https://unpkg.com/normalize.css@8.0.1/normalize.css" rel="stylesheet"/>
+    <title>Compassionate PDX</title>
 
+    <link rel="shortcut icon" href="/content/icons/favicon.ico"/>
+    <meta name="description" content="Compassionate PDX is a grass-roots group of volunteers advocating for non-human animals." />
+    <meta property="og:image" content="/content/icons/icon1_orange.png" />
+    <meta property="og:site_name" content="compassionatepdx.org" />
 
-    <!-- Fonts -->
-    <!-- <link href="https://db.onlinewebfonts.com/c/d60b13a925ef3dfc380e1dcd4cc5673b?family=IndustryIncW00-Base" rel="stylesheet" type="text/css"/> -->
-    <!-- <link href="https://db.onlinewebfonts.com/c/a5639cd27a5f27e8be51b04ba9d92c09?family=IndustryIncW00-Inline" rel="stylesheet" type="text/css"/> -->
-    <style>
-      @font-face {font-family: "industry-inc-inline";
-        src: url("./fonts/industry-inc-inline.eot");
-        src: url("./fonts/industry-inc-inline.eot") format("embedded-opentype"),
-        url("./fonts/industry-inc-inline.woff2") format("woff2"),
-        url("./fonts/industry-inc-inline.woff") format("woff"),
-        url("./fonts/industry-inc-inline.ttf") format("truetype"),
-        url("./fonts/industry-inc-inline.svg") format("svg");
-      }
-      @font-face {font-family: "industry-inc-base";
-        src: url("./fonts/industry-inc-base.eot");
-        src: url("./fonts/industry-inc-base.eot") format("embedded-opentype"),
-        url("./fonts/industry-inc-base.woff2") format("woff2"),
-        url("./fonts/industry-inc-base.woff") format("woff"),
-        url("./fonts/industry-inc-base.ttf") format("truetype"),
-        url("./fonts/industry-inc-base.svg") format("svg");
-      }
-    </style>
-
-
-
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"/>
-
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <!-- Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Roboto Slab -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> -->
+    <!-- Open Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> -->
+
+    <!-- Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <style>
-      html, body {
-        margin:0;
-        padding:0;
-        font-family: 'Josephin Sans', sans-serif;
-      }
-      * {
-        box-sizing:border-box;
-      }
-      header {
-        position:relative;
-        font-family: "industry-inc-inline";
-        background-color: #91eeff;
-        color:white;
-        z-index:10;
-        text-align:center;
-        padding:10px;
-      }
-      header a {
-        font-size:50px;
-        color:white;
-      }
-      .sidenav-trigger {
-        margin-left:10px;
-        position:sticky;
-        position: -webkit-sticky;
-        top:0;
-        display:block;
-      }
-      .sidenav-trigger i {
-        font-size:40px;
-      }
-      @media (max-width:800px) {
-        header a {
-          font-size:30px;
+        html {
+            scroll-behavior: smooth;
         }
-        .sidenav-trigger {
-          position:relative;
-          width:10px;
+        html, body, #page {
+            min-height:100vh;
         }
-        .sidenav-trigger i {
-          font-size:20px;
+        body {
+            background-color:white;
+            
+            font-family: 'Open Sans', sans-serif;
         }
-      }
-      hr {
-        color:white;
-        background-color:lightgrey;
-      }
+        nav ul a {
+            font-size:1.2rem;
+            transition: all 1s;
+        }
+        nav ul a:hover {
+            background-color:rgba(0,0,0,0.7)
+        }
+        /* .nav-wrapper:hover {
+            background-color:rgba(0,0,0,0.7) !important;
+        } */
+
+        nav {
+            
+            /* padding: 0 20px; */
+            z-index:10;
+            height: initial !important;
+            /* text-shadow: -1px -1px 10px #000, 1px -1px 10px #000, -1px 1px 10px #000, 1px 1px 10px #000; */
+            /* text-shadow: -1px -1px 20px #111, 1px -1px 20px #111, -1px 1px 20px #111, 1px 1px 20px #111; */
+
+        }
+        .btn {
+            background-color: #ff9800 !important
+        }
+        .nav-wrapper {
+            background-color:rgba(0,0,0, 0.5);
+            border-bottom: 1px solid rgba(0,0,0,0.5);
+        }
+        
+        .nav-wrapper .container {
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items:stretch;
+        }
+        nav .brand-logo {
+            position: static;
+        }
+        nav ul, .title_icon {
+            display: flex;
+            flex-direction: row;
+            align-items:stretch;
+        }
+        .brand-logo {
+            line-height: 76px;
+        }
+        nav ul a {
+            display:block;
+            /* height:100%; */
+            line-height: 76px;
+        }
+        /* nav li a:hover {
+            color: #ffc107;
+            font-size:20px;
+        } */
+        .nav-wrapper {
+            font-family: 'Roboto Slab', serif;
+            transition: all 1s;
+            /* padding: 0 20px; */
+            
+        }
+        nav {
+            padding-bottom:20px;
+        }
+        nav h2 {
+            margin: 40px 0;
+
+        }
+        nav img {
+            height:40px;
+            margin: auto 10px;
+        }
+        .brand-logo {
+            white-space:nowrap;
+        }
+        #page {
+            /* max-width:1000px; */
+            margin:0 auto;
+            background-color:white;
+        }
+        .page-title {
+            clear:both;
+        }
+        @media only screen and (max-width: 992px) {
+            nav .brand-logo {
+                left: 0 !important;
+                -webkit-transform:none;
+                transform:none;
+            }
+            nav .sidenav-trigger {
+                margin: 0 !important;
+            }
+        }
+        .header_image_credit {
+            /* display:block; */
+            position:absolute;
+            transform:translateY(-40%);
+            right:10px;
+            font-size:10px;
+            opacity:0.5;
+        }
+
+        .subtitle {
+            line-height:normal!important;
+            font-size:1.25rem;
+            margin-top:20px;
+            max-width:600px;
+        }
     </style>
-  </head>
-  <body>
-    <header>
-      <a href="#" data-target="slide-out" class="sidenav-trigger left"><i class="material-icons">menu</i></a>
-      <a href="/">#FurFreePDX</a>
-    </header>
-    <ul id="slide-out" class="sidenav">
-      <li><a href="/">Home</a></li>
-      <li><a href="why_ban_fur.php">Why Ban Fur?</a></li>
-      <li><a href="commissioners.php">Take Action</a></li>
-      <li><a href="petition_locations.php">Petition Locations</a></li>
-      <li><a href="endorsement_letter.php">Endorsement Letter</a></li>
-      <li><a href="model_legislation.php">Model Legislation</a></li>
-      <li><a href="https://compassionatecity.org/">Compassionate Cities</a></li>
-      <li><a href="about_us.php">About us</a></li>
-    </ul>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems, {});
-      });
-    </script>
+</head>
+<body>
+    <div id="page">
+        <nav>
+            <div class="inner-nav">
+                <div class="nav-wrapper">
+                    <div class="container">
+                        <div class="title_icon">
+                            <img src="/content/icons/icon1_white_punchout.png" class="hide-on-small-only" />
+                            <a href="/" class="brand-logo">Compassionate PDX</a>
+                        </div>
+                        <ul id="nav-mobile" class="hide-on-med-and-down">
+                            <li><a href="/furtruth.php">The Truth about Fur</a></li>
+                            <li><a href="/furfreepdx">Fur Free PDX</a></li>
+                            <li><a href="/furfreeoregon.php">Fur Free Oregon</a></li>
+                            <!-- <li><a href="/furfreeoregon.php">Fur Facts</a></li> -->
+                            <!-- <li><a href="/furfreeoregon.php">Coalition</a></li> -->
+                            <!-- <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Campaigns<i class="material-icons right">arrow_drop_down</i></a></li> -->
+                        </ul>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                    </div>
+                </div>
+            
+                <div class="page-title container">
+                    <?php echo $title; ?>
+                </div>
+            </div>
+            <a class="header_image_credit" href="<?php echo $header_image_credit_url; ?>"><?php echo $header_image_credit_text; ?></a>
+        </nav>
+        <ul id="slide-out" class="sidenav">
+            <li><a href="/furtruth.php">The Truth about Fur</a></li>
+            <li><a href="/furfreepdx">Fur Free PDX</a></li>
+            <li><a href="/furfreeoregon.php">Fur Free Oregon</a></li>
+            <!-- <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
+        </ul>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.sidenav');
+                var instances = M.Sidenav.init(elems, {
+                    edge: 'right'
+                });
+
+                var dropdown_elems = document.querySelectorAll('.dropdown-trigger');
+                var dropdown_instances = M.Dropdown.init(dropdown_elems, {
+                    constrainWidth: false,
+                    coverTrigger: false
+                });
+            });
+        </script>

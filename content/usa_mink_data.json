@@ -1,0 +1,667 @@
+[
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Idaho",
+        "Data Item": "Mink Slaughtered",
+        "value": 357970
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Idaho",
+        "Data Item": "Mink Slaughtered",
+        "value": 372200
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Idaho",
+        "Data Item": "Mink Slaughtered",
+        "value": 349500
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Idaho",
+        "Data Item": "Mink Slaughtered",
+        "value": 313500
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Idaho",
+        "Data Item": "Mink Slaughtered",
+        "value": 302220
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Idaho",
+        "Data Item": "Mink Slaughtered",
+        "value": 267740
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Illinois",
+        "Data Item": "Mink Slaughtered",
+        "value": 97740
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Illinois",
+        "Data Item": "Mink Slaughtered",
+        "value": 98700
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Illinois",
+        "Data Item": "Mink Slaughtered",
+        "value": 81100
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Illinois",
+        "Data Item": "Mink Slaughtered",
+        "value": 81100
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Illinois",
+        "Data Item": "Mink Slaughtered",
+        "value": 85000
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Illinois",
+        "Data Item": "Mink Slaughtered",
+        "value": 33200
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Iowa",
+        "Data Item": "Mink Slaughtered",
+        "value": 85700
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Iowa",
+        "Data Item": "Mink Slaughtered",
+        "value": 96300
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Iowa",
+        "Data Item": "Mink Slaughtered",
+        "value": 88070
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Iowa",
+        "Data Item": "Mink Slaughtered",
+        "value": 88210
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Iowa",
+        "Data Item": "Mink Slaughtered",
+        "value": 106760
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Iowa",
+        "Data Item": "Mink Slaughtered",
+        "value": 80450
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Michigan",
+        "Data Item": "Mink Slaughtered",
+        "value": 53200
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Michigan",
+        "Data Item": "Mink Slaughtered",
+        "value": 60250
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Michigan",
+        "Data Item": "Mink Slaughtered",
+        "value": 64500
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Michigan",
+        "Data Item": "Mink Slaughtered",
+        "value": 78340
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Michigan",
+        "Data Item": "Mink Slaughtered",
+        "value": 63200
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Michigan",
+        "Data Item": "Mink Slaughtered",
+        "value": 65020
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Minnesota",
+        "Data Item": "Mink Slaughtered",
+        "value": 255930
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Minnesota",
+        "Data Item": "Mink Slaughtered",
+        "value": 265520
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Minnesota",
+        "Data Item": "Mink Slaughtered",
+        "value": 210580
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Minnesota",
+        "Data Item": "Mink Slaughtered",
+        "value": 180580
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Minnesota",
+        "Data Item": "Mink Slaughtered",
+        "value": 172670
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Minnesota",
+        "Data Item": "Mink Slaughtered",
+        "value": 141950
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "MONTANA",
+        "Data Item": "Mink Slaughtered",
+        "value": 25730
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "MONTANA",
+        "Data Item": "Mink Slaughtered",
+        "value": 14900
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "MONTANA",
+        "Data Item": "Mink Slaughtered",
+        "value": 11900
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Ohio",
+        "Data Item": "Mink Slaughtered",
+        "value": 95800
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Ohio",
+        "Data Item": "Mink Slaughtered",
+        "value": 77800
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Oregon",
+        "Data Item": "Mink Slaughtered",
+        "value": 333050
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Oregon",
+        "Data Item": "Mink Slaughtered",
+        "value": 332900
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Oregon",
+        "Data Item": "Mink Slaughtered",
+        "value": 306170
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Oregon",
+        "Data Item": "Mink Slaughtered",
+        "value": 283670
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Oregon",
+        "Data Item": "Mink Slaughtered",
+        "value": 258910
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Oregon",
+        "Data Item": "Mink Slaughtered",
+        "value": 202920
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Other States",
+        "Data Item": "Mink Slaughtered",
+        "value": 39080
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Other States",
+        "Data Item": "Mink Slaughtered",
+        "value": 21330
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Other States",
+        "Data Item": "Mink Slaughtered",
+        "value": 341000
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Other States",
+        "Data Item": "Mink Slaughtered",
+        "value": 368110
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Other States",
+        "Data Item": "Mink Slaughtered",
+        "value": 322120
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Other States",
+        "Data Item": "Mink Slaughtered",
+        "value": 266720
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Pennsylvania",
+        "Data Item": "Mink Slaughtered",
+        "value": 87430
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Pennsylvania",
+        "Data Item": "Mink Slaughtered",
+        "value": 86770
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Pennsylvania",
+        "Data Item": "Mink Slaughtered",
+        "value": 67540
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Pennsylvania",
+        "Data Item": "Mink Slaughtered",
+        "value": 86130
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Pennsylvania",
+        "Data Item": "Mink Slaughtered",
+        "value": 75580
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Pennsylvania",
+        "Data Item": "Mink Slaughtered",
+        "value": 46270
+    },
+    {
+        "year": 1996,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2783200
+    },
+    {
+        "year": 1997,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2993300
+    },
+    {
+        "year": 1998,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2938100
+    },
+    {
+        "year": 1999,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2812500
+    },
+    {
+        "year": 2000,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2666100
+    },
+    {
+        "year": 2001,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2565300
+    },
+    {
+        "year": 2002,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2607300
+    },
+    {
+        "year": 2003,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2549000
+    },
+    {
+        "year": 2004,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2558100
+    },
+    {
+        "year": 2005,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2637800
+    },
+    {
+        "year": 2006,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2858800
+    },
+    {
+        "year": 2007,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2828200
+    },
+    {
+        "year": 2008,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2820700
+    },
+    {
+        "year": 2009,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2866700
+    },
+    {
+        "year": 2010,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2840200
+    },
+    {
+        "year": 2011,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 3091470
+    },
+    {
+        "year": 2012,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": " (NA)"
+    },
+    {
+        "year": 2013,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 3544610
+    },
+    {
+        "year": 2014,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 3741150
+    },
+    {
+        "year": 2015,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 3682960
+    },
+    {
+        "year": 2016,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 3454410
+    },
+    {
+        "year": 2017,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 3400080
+    },
+    {
+        "year": 2018,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 3169560
+    },
+    {
+        "year": 2019,
+        "Geo Level": "NATIONAL",
+        "state": "US Total",
+        "Data Item": "Mink Slaughtered",
+        "value": 2704200
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Utah",
+        "Data Item": "Mink Slaughtered",
+        "value": 958760
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Utah",
+        "Data Item": "Mink Slaughtered",
+        "value": 867880
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Utah",
+        "Data Item": "Mink Slaughtered",
+        "value": 731660
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Utah",
+        "Data Item": "Mink Slaughtered",
+        "value": 743260
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Utah",
+        "Data Item": "Mink Slaughtered",
+        "value": 708000
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Utah",
+        "Data Item": "Mink Slaughtered",
+        "value": 556710
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Washington",
+        "Data Item": "Mink Slaughtered",
+        "value": 82000
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Washington",
+        "Data Item": "Mink Slaughtered",
+        "value": 71800
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Washington",
+        "Data Item": "Mink Slaughtered",
+        "value": 55080
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Washington",
+        "Data Item": "Mink Slaughtered",
+        "value": 44000
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Washington",
+        "Data Item": "Mink Slaughtered",
+        "value": 44500
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Washington",
+        "Data Item": "Mink Slaughtered",
+        "value": 27000
+    },
+    {
+        "year": 2014,
+        "Geo Level": "STATE",
+        "state": "Wisconsin",
+        "Data Item": "Mink Slaughtered",
+        "value": 1268760
+    },
+    {
+        "year": 2015,
+        "Geo Level": "STATE",
+        "state": "Wisconsin",
+        "Data Item": "Mink Slaughtered",
+        "value": 1316610
+    },
+    {
+        "year": 2016,
+        "Geo Level": "STATE",
+        "state": "Wisconsin",
+        "Data Item": "Mink Slaughtered",
+        "value": 1147310
+    },
+    {
+        "year": 2017,
+        "Geo Level": "STATE",
+        "state": "Wisconsin",
+        "Data Item": "Mink Slaughtered",
+        "value": 1133180
+    },
+    {
+        "year": 2018,
+        "Geo Level": "STATE",
+        "state": "Wisconsin",
+        "Data Item": "Mink Slaughtered",
+        "value": 1030600
+    },
+    {
+        "year": 2019,
+        "Geo Level": "STATE",
+        "state": "Wisconsin",
+        "Data Item": "Mink Slaughtered",
+        "value": 1016220
+    }
+]

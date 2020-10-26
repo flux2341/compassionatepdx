@@ -22,7 +22,7 @@ endorsement_coalition = [{
   	name: 'Fur Free Society',
   	logo: 'fur_free_society.png',
   	url: 'http://www.furfreesociety.org/'
-  },{
+  },/*{
     name: 'Anonymous for the Voiceless',
     logo: 'anonymous_for_the_voiceless.png',
     url: 'https://www.anonymousforthevoiceless.org/'
@@ -30,11 +30,11 @@ endorsement_coalition = [{
     name: 'Direct Action Everywhere',
     logo: 'direct_action_everywhere.jpg',
     url: 'https://www.directactioneverywhere.com/'
-  },{
+  },/*{
     name: 'Portland Animal Save',
     logo: 'portland_animal_save.jpg',
     url: 'http://thesavemovement.org/'
-  },{
+  },*/{
     name: 'Sea Shepherd Conservation Society',
     logo: 'sea_shepherd.png',
     url: 'https://seashepherd.org/'
@@ -134,10 +134,6 @@ endorsement_businesses = [{
   logo: 'flying_cat_coffee_co.jpg',
   url: 'https://www.facebook.com/flyingcatcoffee/'
 },{
-  name: 'Green City Smoothies',
-  logo: 'green_city_smoothies.png',
-  url: 'https://www.greencitysmoothies.com/'
-},{
   name: 'Hail Snail',
   logo: 'hail_snail.jpg',
   url: 'https://hailsnailpdx.com/'
@@ -208,7 +204,7 @@ endorsement_businesses = [{
 },{
   name: 'Obon',
   logo: 'obon.jpg',
-  url: 'https://www.facebook.com/obon.tasty.japanese/'
+  url: 'https://obonpdx.com/about.html'
 },{
   name: 'Three Sisters Nixtamal',
   logo: 'three_sisters_nixtamal.png',
