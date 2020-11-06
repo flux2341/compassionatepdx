@@ -28,6 +28,7 @@
     <style>
         html {
             scroll-behavior: smooth;
+            box-sizing: border-box;
         }
         html, body, #page {
             min-height:100vh;
@@ -119,6 +120,11 @@
         .page-title {
             clear:both;
         }
+        .sidenav-trigger, .sidenav-trigger i {
+            display:inline-block;
+            height: 76px !important;
+            margin: 10px 0;
+        }
         @media only screen and (max-width: 992px) {
             nav .brand-logo {
                 left: 0 !important;
@@ -147,6 +153,16 @@
     </style>
 </head>
 <body>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="/furtruth.php">The Truth about Fur</a></li>
+        <li><a href="/furfreepdx">Fur Free PDX</a></li>
+        <li><a href="/furfreeoregon.php">Fur Free Oregon</a></li>
+        <!-- <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
+    </ul>
     <div id="page">
         <nav>
             <div class="inner-nav">
@@ -164,7 +180,7 @@
                             <!-- <li><a href="/furfreeoregon.php">Coalition</a></li> -->
                             <!-- <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Campaigns<i class="material-icons right">arrow_drop_down</i></a></li> -->
                         </ul>
-                        <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     </div>
                 </div>
             
@@ -174,16 +190,7 @@
             </div>
             <a class="header_image_credit" href="<?php echo $header_image_credit_url; ?>"><?php echo $header_image_credit_text; ?></a>
         </nav>
-        <ul id="slide-out" class="sidenav">
-            <li><a href="/furtruth.php">The Truth about Fur</a></li>
-            <li><a href="/furfreepdx">Fur Free PDX</a></li>
-            <li><a href="/furfreeoregon.php">Fur Free Oregon</a></li>
-            <!-- <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-            <li><a href="#!">Second Link</a></li>
-            <li><div class="divider"></div></li>
-            <li><a class="subheader">Subheader</a></li>
-            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
-        </ul>
+
 
         <script>
             document.addEventListener('DOMContentLoaded', function() {

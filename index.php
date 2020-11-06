@@ -42,7 +42,7 @@ include('header.php');
         max-width:100%;
     }
     .fact .card-panel, .card {
-        height:300px;
+        min-height:300px;
     }
     .fact .image-container .card-panel {
         background-size: cover;
@@ -53,7 +53,7 @@ include('header.php');
         outline-offset: -4px;
     }
     .fact .image-container {
-        height:300px;
+        min-height:300px;
         position:relative;
         
     }
@@ -114,8 +114,22 @@ include('header.php');
         el: '#take_action',
         data: {
             facts: [{
+                title: 'Fur Free Friday 2020',
+                text: 'Join us for the annual Fur Free Friday Rally the day after Thanksgiving in Downtown Portland! Everyone is welcome to this important event focused on encouraging retailers in adopting fur free policies and to urging lawmakers to pass a fur sale ban in Oregon.',
+                image: {
+                    file_name: '120142310_973355426477692_9133797177008212574_o.jpg',
+                    source: {
+                        name: '',
+                        url: ''
+                    },
+                },
+                links: [{
+                    text: 'details + rsvp',
+                    url: 'https://www.facebook.com/events/1195587417476917'
+                }]
+            },{
                 title: 'Join the Fur Squad',
-                text: 'The Compassionate PDX Fur Squad is a group of volunteers that organizes events.',
+                text: 'The Compassionate PDX Fur Squad is a group of volunteers that helps with various activities, including event organizing, letter writing, graphic design, and more!',
                 image: {
                     file_name: 'DSC01983.jpg',
                     source: {

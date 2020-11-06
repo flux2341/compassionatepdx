@@ -4,20 +4,19 @@
         <h4>Get News and Action Alerts</h4>
         <form class="container validate" action="https://gmail.us20.list-manage.com/subscribe/post?u=7e76d09bf8255833250f71127&amp;id=33b90c5c20" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
             <div class="row">
-                <div class="input-field col s1"></div>
-                <div class="input-field col s3">
+                <div class="input-field col s6 m3 offset-m1">
                     <input id="first_name" type="text" class="validate" name="FNAME">
                     <label for="first_name" >First Name</label>
                 </div>
-                <div class="input-field col s3">
+                <div class="input-field col s6 m3">
                     <input id="last_name" type="text" class="validate" name="LNAME">
                     <label for="last_name">Last Name</label>
                 </div>
-                <div class="input-field col s3">
+                <div class="input-field col s6 m3">
                     <input id="email" type="text" class="validate" name="EMAIL">
                     <label for="email">Email Address</label>
                 </div>
-                <div class="input-field col s2">
+                <div class="input-field col s6 m2">
                     <button class="btn orange" type="submit">Sign Up</button>
                 </div>
             </div>
