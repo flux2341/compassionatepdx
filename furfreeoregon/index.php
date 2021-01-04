@@ -14,7 +14,7 @@ $header_image_credit_url = '';
 ?>
 
 <?php
-include('header.php');
+include('../header.php');
 ?>
 
 <style>
@@ -107,5 +107,5 @@ My name is **Your Name**, a constituent of your district, and I'm asking you to 
 <div class="img_header"><img src="/content/furfreeoregon/83823431_10162762324235401_3203357239817535488_o.jpg"/></div>
 
 <?php
-include('footer.php');
+include('../footer.php');
 ?>
