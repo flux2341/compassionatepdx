@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="<?php echo 'theme' . htmlspecialchars($_GET["theme"] ?? '1');?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,56 @@
 
     <!-- Vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
     <style>
+
+        .theme1 {
+            /* --footer-main: CORNFLOWERBLUE;
+            --footer-social: ROYALBLUE; */
+
+            --footer-main-foreground: white;
+            --footer-main-background: #455a64;
+            --footer-social: #37474f;
+
+            --button-background: #ff9800;
+            --card-background: #455a64;
+            --card-foreground: white;
+            --card-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+            --card-border: none;
+        }
+
+        .theme2 {
+
+            --footer-main-foreground: black;
+            --footer-main-background: beige;
+            --footer-social: #593414;
+
+            --button-background: #F29727;
+            --card-background: white;
+            --card-foreground: black;
+            --card-shadow: none;
+            --card-border: none;
+        }
+
+        label {
+            color: white !important;
+        }
+
+         /* label focus color */
+        .input-field input[type=text]:focus + label {
+            color: white !important;
+        }
+        /* label underline focus color */
+        .input-field input[type=text]:focus {
+            border-bottom: 1px solid white !important;
+            box-shadow: 0 1px 0 0 white !important;
+        }
+
+        .btn {
+            background-color:  var(--button-background) !important;
+        }
+
+
         html {
             scroll-behavior: smooth;
             box-sizing: border-box;
@@ -58,9 +107,7 @@
             /* text-shadow: -1px -1px 20px #111, 1px -1px 20px #111, -1px 1px 20px #111, 1px 1px 20px #111; */
 
         }
-        .btn {
-            background-color: #ff9800 !important
-        }
+        
         .nav-wrapper {
             background-color:rgba(0,0,0, 0.5);
             border-bottom: 1px solid rgba(0,0,0,0.5);
@@ -93,7 +140,7 @@
             font-size:20px;
         } */
         .nav-wrapper {
-            font-family: 'Roboto Slab', serif;
+            /* font-family: 'Roboto Slab', serif; */
             transition: all 1s;
             /* padding: 0 20px; */
             

@@ -5,8 +5,8 @@
 <?php ob_start(); ?>
 <h2>Fur Free Oregon</h2>
 <div class="subtitle">Let's make Oregon the next Fur Free state!</div>
-<a class="btn" href="#take_action">Take Action</a>
-<a class="btn" href="https://drive.google.com/file/d/1Qex0wccX0iNvpEKALibbTCoRi1bK_K_d/view">View our Legislation</a>
+<!-- <a class="btn" href="#take_action">Take Action</a> -->
+<!-- <a class="btn" href="https://drive.google.com/file/d/1Qex0wccX0iNvpEKALibbTCoRi1bK_K_d/view">View our Legislation</a> -->
 <?php
 $title = ob_get_clean();
 $header_image_credit_text = '';
@@ -72,7 +72,7 @@ include('header.php');
 </style>
 
 
-<div id="take_action" class="container">
+<!-- <div id="take_action" class="container">
     <div class="row">
         <div class="col m6">
             <div class="card-panel left-card">
@@ -93,7 +93,7 @@ My name is **Your Name**, a constituent of your district, and I'm asking you to 
     </div>
 </div>
 
-<div class="img_header"><img src="/content/furfreeoregon/83823431_10162762324235401_3203357239817535488_o.jpg"/></div>
+
 
 <script>
     let btn_copy = document.querySelector('#btn_copy')
@@ -102,7 +102,9 @@ My name is **Your Name**, a constituent of your district, and I'm asking you to 
         navigator.clipboard.writeText(textarea_email_template.value)
         M.toast({html: 'Template Copied', displayLength: 1000})
     })
-</script>
+</script> -->
+
+<div class="img_header"><img src="/content/furfreeoregon/83823431_10162762324235401_3203357239817535488_o.jpg"/></div>
 
 <?php
 include('footer.php');

@@ -134,7 +134,7 @@ include('../header.php');
       max-width:100%;
   } */
   main h4 {
-    background-color: #455a64;
+    background-color: var(--card-background);
     color: white;
     margin-bottom:30px;
     padding:30px;

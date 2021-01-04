@@ -1,6 +1,6 @@
 
     </div>
-    <footer class="page-footer blue-grey darken-2">
+    <footer class="page-footer">
         <h4>Get News and Action Alerts</h4>
         <form class="container validate" action="https://gmail.us20.list-manage.com/subscribe/post?u=7e76d09bf8255833250f71127&amp;id=33b90c5c20" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
             <div class="row">
@@ -22,7 +22,7 @@
             </div>
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7e76d09bf8255833250f71127_33b90c5c20" tabindex="-1" value=""></div>
         </form>
-        <div class="footer-social blue-grey darken-3">
+        <div class="footer-social">
             <a href="mailto:compassionateportland@gmail.com"><img src="/content/icons/email.png"/></a>
             <a href="https://www.instagram.com/compassionatepdx/"><img src="/content/icons/instagram.png"/></a>
             <a href="https://www.facebook.com/compassionatepdx/"><img src="/content/icons/facebook.png"/></a>
@@ -30,9 +30,16 @@
         </div>
     </footer>
 
-
+    
 
     <style>
+        .page-footer {
+            background-color: var(--footer-main-background);
+            color: var(--footer-main-foreground);
+        }
+        .footer-social {
+            background-color: var(--footer-social);
+        }
         footer h4 {
             text-align:center;
         }

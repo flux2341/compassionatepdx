@@ -27,7 +27,13 @@ include('header.php');
         text-shadow: -1px -1px 20px #111, 1px -1px 20px #111, -1px 1px 20px #111, 1px 1px 20px #111;
     }
     .card-panel {
-        background-color: #455a64;
+        background-color: var(--card-background);
+        box-shadow: var(--card-shadow) !important;
+        border: var(--card-border);
+        color: var(--card-foreground);
+    }
+    .card {
+        
     }
     .fact img {
         max-width:100%;
@@ -50,7 +56,6 @@ include('header.php');
     }
     .fact_title {
         font-size:2rem;
-        color: white;
         margin-bottom:10px;
     }
     .image_fact_source {
@@ -71,11 +76,11 @@ include('header.php');
         <div class="col s12 m6">
             <div class="card-panel">
                 <div class="fact_title">{{fact.title}}</div>
-                <span class="white-text" v-html="fact.text"></span>
+                <span v-html="fact.text"></span>
             </div>
         </div>
         <div class="col s12 m6 image-container">
-            <div class="card-panel" :style="{ backgroundImage: 'url(\'./content/facts/' + fact.image.file_name + '\')' }"></div>
+            <div class="card-panel" :style="{ backgroundImage: 'url(\'/content/facts/' + fact.image.file_name + '\')' }"></div>
             <a class="image_fact_source" :href="fact.image.source.url">{{ fact.image.source.name }}</a>
         </div>
     </div>
